@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        nav {
+            background-color: black;
+            padding-top: 0.3px;
+            padding-bottom: 0.3px;
+            box-shadow: 5px 5px 15px rgb(83, 83, 83);
+        }
+
+        nav a{
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding-left: 6%;
+            padding-right: 6%;
+        }
+
+        #servicos{
+            display: none;
+        }
+
+
+        nav a:hover {
+            color: gray;
+        }
+
+        section {
+            background-color: beige;
+            height: 300px;
+            box-shadow: 5px 5px 15px rgb(83, 83, 83);
+            border-radius: 5%;
+        }
+
+        #noticias {
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: rgba(192, 190, 190, 0.404);
+            padding-left: 10px;
+            padding-right: 10px;
+            width: 90vw;
+            height: 180px;
+            margin: auto;
+            box-shadow: 2px 2px 15px rgb(163, 161, 161);
+            border-radius: 5%;
+        }
+
+        #tema{
+            padding: 10px;
+        }
+
+        article p{
+            text-indent: 15px;
+            text-align: justify;
+        }
+
+        article h2 {
+            text-align: center;
+            padding-top: 10px;
+        }
+
+        #autor {
+            text-align: right;
+        }
+
+        footer {
+            background-color: black;
+            text-align: center;
+            color: white;
+            box-shadow: 5px 5px 15px rgb(83, 83, 83);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+    </header>
+    <nav>
+        <ul>
+        <a href="#">Início</a>
+        <a href="#">Serviços</a>
+        <a href="#">Sobre-nós</a>
+        <a href="#">Contato</a>
+    </nav>
+    <main>
+        <section id="noticias">
+            <p id="tema">Esportes, Política e Tecnologia</p>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum quaerat accusamus tempore tenetur dignissimos, obcaecati deserunt iure repellendus error maiores dolor facilis, quo amet laboriosam soluta aspernatur officia ad expedita!</p>
+                <aside>
+                    <p id="autor">Escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Bruno</p>
+    </footer>
+</body>
+</html>
