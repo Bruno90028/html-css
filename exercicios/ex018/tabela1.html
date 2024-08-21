@@ -21,7 +21,14 @@
             border: 1px solid black;
             padding: 8px;
             text-align: center;/*Alinhamento horizontal*/
-            vertical-align: middle; /*top ou bottom - alinhamento vertical*/
+            vertical-align: middle; /*top ou bottom - alinhamento*/
+        }
+
+        col.a {
+            background-color: lightblue;
+        }
+        col.b {
+            background-color: rgb(161, 161, 43);
         }
     </style>
 </head>
@@ -34,6 +41,10 @@
             table data = dados de tabela
     -->
     <table>
+        <colgroup>
+            <col class="a">
+            <col class="b" span="2">
+        </colgroup>
         <tr> <!--primeira linha-->
             <td>A1</td>
             <td>B1</td>
